@@ -4,9 +4,7 @@
 
 例：
 
-  des_json = {'aaa': 'bbb',
-  
-              'orderItems': [{'taxRate': 20}]}
+  des_json = {'aaa': 'bbb','orderItems': [{'taxRate': 20}]}
               
   set_value(des_json, 'abc.cba.1', {'ccc': {'bbb': 'hah'}})
   
